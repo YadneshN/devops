@@ -1,0 +1,44 @@
+1. File & Directory Management
+ls, cd, pwd, mkdir, rmdir, rm, cp, mv, tree, find, locate, basename, dirname
+
+2. File Viewing & Editing
+cat, less, more, head, tail, nano, vi/vim
+
+3. File Permissions & Ownership
+chmod, chown, chgrp, umask, stat
+
+4. User & Group Management
+whoami, id, who, w, groups, useradd, userdel, usermod, groupadd, passwd, su, sudo
+
+5. Process & System Monitoring
+ps, top, htop, uptime, free, df, du, vmstat, iostat, sar, mpstat, kill, killall, pkill
+
+6. Disk & Storage Management
+df, du, mount, umount, lsblk, blkid, fdisk, parted, lsof
+
+7. Package Management
+
+(varies by distro)
+
+apt, apt-get, dnf, yum, rpm, zypper, snap
+
+8. Networking & Connectivity
+ping, curl, wget, traceroute, ss, netstat, ip, ifconfig, nslookup, dig, scp, rsync, ssh
+
+9. Text Processing
+grep, egrep, fgrep, awk, sed, cut, sort, uniq, tr, wc, split, strings
+
+10. Shell Scripting & Automation
+bash, sh, crontab, at, alias, history, export, env, source
+
+11. System Services & Daemons
+systemctl, service, chkconfig, init, journalctl
+
+12. Logs & Monitoring
+dmesg, journalctl, cat, tail, less, zcat, logger
+
+13. Archiving & Compression
+tar, gzip, gunzip, bzip2, bunzip2, unzip, zip
+
+14. Security & Firewall
+ufw, firewall-cmd, iptables, ssh-keygen, ssh-copy-id
