@@ -3,13 +3,11 @@ provider "aws" {
 }
 
 resource "aws_instance" "web" {
-  ami                    = "ami-0c7217cdde317cfec" # Update to latest AMI for your region/OS
+  ami                    = "ami-0f918f7e67a3323f0" # Update to latest AMI for your region/OS
   instance_type          = "t2.micro"              # Free Tier eligible
-  subnet_id              = "<your-subnet-id>"
-  vpc_security_group_ids = ["<your-security-group-id>"]
-  key_name               = "<your-key-pair-name>"  # Optional, if using a key pair
+  vpc_security_group_ids = ["sg-0bfc6a923f9cba258"] # Update your security group
+  key_name               = "yadnesh_key"  # Optional, if using a key pair
 
-  associate_public_ip_address = true
 
   tags = {
     Name = "TerraformFreeTierEC2Instance"
