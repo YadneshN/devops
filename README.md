@@ -1,2 +1,2 @@
 # terraform
-This is a repo for learning Terraform
+This is a repo for learning DevOps
