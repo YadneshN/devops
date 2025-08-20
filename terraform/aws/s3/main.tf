@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create an S3 Bucket
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-unique-bucket-name-12345"  # Change to a globally unique bucket name
+  bucket = "yadnesh-4567"  # Change to a globally unique bucket name
   acl    = "private"  # Set the bucket access control, options: private, public-read, etc.
 }
 
